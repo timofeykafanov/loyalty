@@ -1,0 +1,213 @@
+@import url(./fonts/fonts.css);
+
+.page {
+  margin: 0;
+  font-family: 'Gotham Pro', Arial;
+  color: rgb(85, 85, 85);
+}
+
+.main {
+  width: 310px;
+  margin: 50px auto;
+  padding: 20px 0 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin: 30px;
+  height: 100%;
+  background-image: url('./images/graph.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.circle {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  position: relative;
+}
+
+.loyalty-icon {
+  position: absolute;
+  top: -35px;
+  background-image: url('./images/loyalty.svg');
+  width: 38px;
+  height: 46px;
+  display: block;
+}
+
+.percent-box {
+  position: relative;
+  margin-top: 29px;
+}
+
+.percents {
+  font-size: 44px;
+  margin: 0;
+}
+
+.tenth {
+  font-size: 22px;
+}
+
+.percent-small {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  margin: 0;
+}
+
+.loyalty {
+  font-weight: 500;
+  margin: 0;
+  font-size: 19px;
+}
+
+.level {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0 0;
+  color: rgb(251, 210, 41);
+}
+
+.text {
+  color: rgb(156, 156, 156);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 1.2;
+  margin: 2px 0 0;
+}
+
+.change-box {
+  display: flex;
+  margin-top: 5px;
+}
+
+.arrow {
+  background-image: url('./images/arrow.svg');
+  background-size: contain;
+  width: 16px;
+  height: 9px;
+  display: block;
+  margin-right: 3px;
+  margin-top: 2px;
+ }
+
+.change {
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(112, 167, 75);
+}
+
+.list {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0 0 0 33px;
+  width: 220px;
+  list-style-type: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 11px;
+  justify-content: space-between;
+}
+
+.name {
+  width: 80px;
+  margin: 3px 0 0;
+}
+
+.percent {
+  margin: 4px 0 4px;
+}
+.quantity {
+  display: flex;
+  justify-content: right;
+}
+
+.number {
+  margin: 0 5px 0 0;
+  color: rgb(156, 156, 156);
+}
+
+.icon {
+  background-image: url('./images/human_full.svg');
+  width: 12px;
+  height: 12px;
+  background-size: cover;
+}
+
+.graph {
+  position: relative;
+  box-sizing: border-box;
+  width: 90px;
+  height: 33px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 4px;
+  border: 2px solid rgb(241, 241, 241);
+}
+
+.content {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4px;
+}
+
+.new {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  height: 26px;
+  width: 31px;
+  border-radius: 4px 0 0 0;
+}
+
+.previous {
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  height: 7px;
+  width: 31px;
+  border-radius: 0 0 0 4px;
+  opacity: 0.5;
+}
+
+.new_color_green {
+  background-color: rgb(112, 167, 75);
+}
+
+.previous_color_green {
+  background-color: rgb(112, 167, 75);
+  width: 29px;
+}
+
+.new_color_yellow {
+  background-color: rgb(251, 210, 41);
+}
+
+.previous_color_yellow {
+  background-color: rgb(251, 210, 41);
+  width: 28px;
+}
+
+.new_color_red {
+  background-color: rgb(237, 82, 67);
+  width: 26px;
+}
+
+.previous_color_red {
+  background-color: rgb(237, 82, 67);
+}
+
+.changing {
+  margin: 8px 0;
+}
